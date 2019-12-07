@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d3289f5f-f31e-4123-b41a-33dc7f7d04a1" name="ZJL-1" url="http://bob.geeekvr.com">
+        <fileTransfer host="bob.geeekvr.com" port="8031" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="8031" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6baac02e-2896-4eaf-bce9-054e14427c25" name="ZJL-2" url="http://geeekvr.com">
+        <fileTransfer host="geeekvr.com" port="8042" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="8042" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
